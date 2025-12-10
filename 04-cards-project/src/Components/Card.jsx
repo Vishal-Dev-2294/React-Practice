@@ -1,6 +1,4 @@
 function Card(props) {
-  console.log(props.images);
-
   return (
     <>
       <div className="Card">

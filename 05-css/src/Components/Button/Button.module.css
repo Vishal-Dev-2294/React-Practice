@@ -1,0 +1,17 @@
+.btn {
+  margin: 10px;
+}
+
+.btn button {
+  font-size: 25px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aquamarine;
+  color: #111;
+  font-weight: bolder;
+}
+
+.btn button:active {
+  scale: 0.95;
+}

@@ -1,0 +1,30 @@
+.header {
+  height: 70px;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-top: 5px;
+}
+
+.header h3 {
+  font-size: 30px;
+  background-color: aquamarine;
+  color: black;
+  font-weight: bolder;
+}
+
+.header button {
+  font-size: 25px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aquamarine;
+  color: #111;
+  font-weight: bolder;
+}
+
+.header button:active {
+  scale: 0.95;
+}
