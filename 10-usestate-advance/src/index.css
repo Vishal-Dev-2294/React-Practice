@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: aliceblue;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  font-size: 50px;
+  margin: 25px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: aliceblue;
+  color: #111;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+button:active {
+  scale: 0.95;
+}
+
+.div2{
+  padding-top: 100px;
+}
