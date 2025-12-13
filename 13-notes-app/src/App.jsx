@@ -15,6 +15,11 @@ function App() {
     setDetails("");
   };
 
+  const deleteNote = (idx) => {
+    const deleteTask = [...task];
+    deleteTask.splice(idx, 1);
+    setTask(deleteTask);
+  };
   return (
     <div className="h-screen lg:flex bg-black text-white">
       <form
@@ -46,17 +51,26 @@ function App() {
       </form>
       <div className="lg:w-1/2 lg:border-l-2 bg-gray-950  p-10">
         <h1 className="text-4xl font-bold"> Recents Notes </h1>
-        <div className="flex flex-wrap items-start justify-start gap-5 mt-6 overflow-auto h-full">
+        <div className="flex flex-wrap items-start justify-start gap-5 mt-6 overflow-auto h-[95%]">
           {task.map(function (elem, idx) {
             return (
               <div
                 key={idx}
-                className="h-52 relative py-8  px-4 w-40 rounded-xl bg-cover text-black bg-[url('https://img.freepik.com/free-vector/leafy-patterned-note-background_53876-97734.jpg?semt=ais_hybrid&w=740&q=80')] "
+                className="h-52 relative py-8 px-4 w-40 rounded-xl bg-cover text-black bg-[url('https://img.freepik.com/free-vector/leafy-patterned-note-background_53876-97734.jpg?semt=ais_hybrid&w=740&q=80')] "
               >
-                <h3 className="leading-snug underline text-xl font-bold ">
+                <h2
+                  onClick={() => {
+                    deleteNote(idx);
+                  }}
+                  className="absolute cursor-pointer active:scale-125 top-3 right-3"
+                >
+                  {" "}
+                  ❌{" "}
+                </h2>
+                <h3 className="leading-snug text-lg font-bold ">
                   {elem.heading}
                 </h3>
-                <p className="mt-2 leading-tight font-medium text-gray-500">
+                <p className="mt-5 leading-tight text-sm font-medium text-gray-500">
                   {elem.details}
                 </p>
               </div>
