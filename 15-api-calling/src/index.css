@@ -1,0 +1,22 @@
+*{
+ background-color: #111;
+ color: #fff;
+}
+
+button{
+  padding: 20px 40px;
+  margin: 20px;
+  background-color: gray;
+  color: black;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+button:active{
+  scale: 0.95
+}
+
+div{
+  margin: 10px;
+  font-size: 30px;
+}
