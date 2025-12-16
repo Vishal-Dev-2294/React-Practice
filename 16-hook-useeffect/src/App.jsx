@@ -10,10 +10,11 @@ function App() {
 
   return (
     <>
-      <div> number is {num} <br/> number2 is {num2}</div>
-      <button onClick={() => setNum(num + 1)}>
-        Click
-      </button>
+      <div>
+        {" "}
+        number is {num} <br /> number2 is {num2}
+      </div>
+      <button onClick={() => setNum(num + 1)}>Click</button>
       <button onClick={() => setNum2(num2 + 10)}> Click 2 </button>
     </>
   );
