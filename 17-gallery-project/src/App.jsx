@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import axios from "axios";
-import Card from "./Components/Card";
+const Card = lazy(() => import("./Components/Card"));
 
 const App = () => {
   const [userData, setUserData] = useState([]);
@@ -31,7 +31,10 @@ const App = () => {
     printUserData = userData.map(function (elem, idx) {
       return (
         <div key={idx}>
-          <Card elem={elem} />
+          <Suspense fallback="">
+            {" "}
+            <Card elem={elem} />{" "}
+          </Suspense>
         </div>
       );
     });
