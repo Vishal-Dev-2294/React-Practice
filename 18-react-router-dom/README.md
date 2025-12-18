@@ -1,16 +1,91 @@
-# React + Vite
+# 🚀 React Learning Journey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository documents my step-by-step journey of learning **React.js**, covering core concepts, hooks, styling approaches, and real-world mini projects.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 Topics Covered
 
-## React Compiler
+⭐ Each topic represents a milestone in my React learning journey.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📁 Understanding Folder
 
-## Expanding the ESLint configuration
+Learned the basic React project folder structure and the purpose of each file and directory.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧩 Components
+
+Understood how to create and organize reusable React components efficiently.
+
+### 🎯 Props
+
+Learned how to pass data between components using props for dynamic rendering.
+
+### 🃏 Cards Project (Module CSS)
+
+Built a card-based UI using **CSS Modules** for scoped and maintainable styling.
+
+### 🎨 CSS (Module CSS)
+
+Deepened understanding of CSS Modules to avoid global style conflicts.
+
+### 💨 Tailwind CSS
+
+Successfully installed and understood the basics of Tailwind CSS utility-first styling.
+
+### 🖥️ UI Project
+
+Created a simple UI project focusing on functions and controlled input handling.
+
+### ⚙️ Functions
+
+Strengthened understanding of JavaScript functions within React components.
+
+### 🔄 useState Hook
+
+Learned how to manage component state using the `useState` hook.
+
+### 🚀 Advanced useState
+
+Explored advanced state management techniques using `useState`.
+
+### 📝 Form Handling
+
+Implemented form handling including input values and submit events.
+
+### 🔁 Two-Way Binding
+
+Understood two-way data binding using controlled components in React.
+
+### 🗒️ Notes App
+
+Built a functional Notes App to apply state management and component logic.
+
+### 💾 LocalStorage
+
+Learned how to store, retrieve, and manage data using browser LocalStorage.
+
+### 🌐 API Calling
+
+Fetched data from APIs and handled responses using Axios / Fetch.
+
+### ⏱️ useEffect Hook
+
+Learned side effects handling with `useEffect` while working on a gallery project.
+
+### 🖼️ Gallery Project (Lazy Loading)
+
+Implemented lazy loading to optimize performance in a gallery project.
+
+### 🧭 React Router DOM
+
+Learned basic routing, navigation, and page structure using React Router DOM.
+
+---
+
+## ✨ Summary 🌟
+
+This journey helped me build a strong foundation in React, covering fundamentals, hooks, styling, performance optimization, and real-world projects.
+
+---
+
+📌 _More projects and advanced concepts coming soon!_
