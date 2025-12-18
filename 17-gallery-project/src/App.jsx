@@ -42,7 +42,7 @@ const App = () => {
 
   return (
     <div className="bg-black overflow-auto h-screen p-4 text-white">
-      <div className="flex h-[82%] flex-wrap gap-4 p-2">{printUserData}</div>
+      <div className="flex h-full flex-wrap gap-4 p-2">{printUserData}</div>
 
       <div className="flex justify-center gap-6 items-center p-4">
         <button
