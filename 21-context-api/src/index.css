@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav1 {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+
+.Light{
+    background-color: blue;
+}
+
+.Dark{
+    background-color: #111;
+}
+
+
+
+.nav2 {
+  display: flex;
+  gap: 30px;
+}
